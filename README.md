@@ -4,7 +4,8 @@
 
 EBNF Grammar for TinyPL:
 
-```program -> decls stmts end
+```
+program -> decls stmts end
 decls -> int idlist ;
 idlist - >  id [', 'idlist ]
 stmts -> stmt [ stmts ]
